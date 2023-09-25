@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #1b263b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logo-imagem,
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto {
+    margin-left: 20px;
+    color: white;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav.nav-tabs {
+    background-color: #1b263b;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+ul.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    margin-top: 8vh;
+}
+
+.card-img-top {
+    width: 20vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+small{
+    color: green;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
